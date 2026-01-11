@@ -1,15 +1,15 @@
-# Tienda de Videojuegos 🎮
+# Tienda de Videojuegos en Django
 
 Proyecto de e-commerce para tienda de videojuegos desarrollado con Django 5.2.9
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Python 3.10 o superior
 - pip (gestor de paquetes de Python)
 - virtualenv (recomendado) o venv
 - Git (opcional)
 
-## 🚀 Instalación
+## Instalación
 
 ### 1. Clonar el Repositorio (si aplica)
 
@@ -21,6 +21,7 @@ cd Tienda_Videojuegos
 ### 2. Crear y Activar Entorno Virtual
 
 **Windows (Git Bash/PowerShell):**
+
 ```bash
 # Crear entorno virtual
 python -m venv venv
@@ -30,6 +31,7 @@ venv\Scripts\activate
 ```
 
 **Linux/Mac:**
+
 ```bash
 # Crear entorno virtual
 python3 -m venv venv
@@ -39,6 +41,7 @@ source venv/bin/activate
 ```
 
 **Alternativa con virtualenvwrapper (Windows):**
+
 ```bash
 # Crear entorno virtual
 mkvirtualenv dj_gamestore
@@ -81,7 +84,7 @@ python manage.py runserver
 
 El servidor estará disponible en: **http://127.0.0.1:8000/**
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Tienda_Videojuegos/
@@ -111,13 +114,13 @@ Tienda_Videojuegos/
 └── README.md                     # Este archivo
 ```
 
-## 🎯 Aplicaciones Incluidas
+## Aplicaciones Incluidas
 
 - **home**: Página principal de la tienda
 - **catalogo**: Gestión y visualización de catálogo de videojuegos
 - **admin**: Panel de administración de Django
 
-## 🛠️ Comandos Útiles
+## Comandos Útiles
 
 ```bash
 # Ejecutar servidor de desarrollo
@@ -142,7 +145,7 @@ python manage.py shell
 python manage.py check
 ```
 
-## ⚙️ Configuración
+## Configuración
 
 ### Base de Datos
 
@@ -174,11 +177,12 @@ ALLOWED_HOSTS=tu-dominio.com
 DATABASE_URL=postgresql://usuario:password@localhost:5432/nombre_db
 ```
 
-## 🔧 Solución de Problemas
+## Solución de Problemas
 
 ### Error: "No module named 'django'"
 
 Asegúrate de haber activado el entorno virtual e instalado las dependencias:
+
 ```bash
 workon dj_gamestore  # o source venv/bin/activate
 pip install -r requirements.txt
@@ -187,45 +191,48 @@ pip install -r requirements.txt
 ### Migraciones No Aplicadas
 
 Si ves el mensaje "You have X unapplied migration(s)", ejecuta:
+
 ```bash
 python manage.py migrate
 ```
 
 ### Puerto 8000 en Uso
 
- Usa un puerto diferente:
+Usa un puerto diferente:
+
 ```bash
 python manage.py runserver 8001
 ```
 
-## 📦 Deploy en Producción
+## Deploy en Producción
 
 **⚠️ IMPORTANTE:** Este servidor de desarrollo NO es adecuado para producción.
 
 Para producción, usa:
+
 - **Gunicorn** + **Nginx** (Linux)
 - **Waitress** (Windows)
 - **uWSGI**
 
 Consulte la [documentación oficial de Django sobre deployment](https://docs.djangoproject.com/en/5.2/howto/deployment/)
 
-## 📚 Recursos
+## Recursos
 
 - [Documentación de Django 5.2](https://docs.djangoproject.com/en/5.2/)
 - [Tutorial de Django](https://docs.djangoproject.com/en/5.2/intro/tutorial01/)
 - [Django Girls Tutorial](https://tutorial.djangogirls.org/)
 
-## 📝 Notas
+## Notas
 
 - El proyecto usa SQLite por defecto, ideal para desarrollo
 - Para producción, usar PostgreSQL o MySQL
 - Configurar `DEBUG=False` y `ALLOWED_HOSTS` en producción
 - Nunca compartir el `SECRET_KEY` en repositorios públicos
 
-## 👤 Autor
+## Autor
 
 DairXP
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT
