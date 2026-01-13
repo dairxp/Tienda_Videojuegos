@@ -34,3 +34,21 @@ staticfiles/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+deploy_final.zip
+*.zip
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Claude Code temporary files
+tmpclaude-*
+.claude/
+
+# VS Code
+.vscode/
