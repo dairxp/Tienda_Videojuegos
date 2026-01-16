@@ -1,4 +1,4 @@
-# Tienda de Videojuegos Unlock en Django :D
+# Tienda de Videojuegos Django
 
 Proyecto de e-commerce para tienda de videojuegos desarrollado con Django 5.2.9
 
