@@ -1,33 +1,36 @@
-{% load static %}
+|{% load static %}
 <!DOCTYPE html>
 <html lang="es" data-bs-theme="light">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>{% block title %}Tienda de Videojuegos{% endblock %}</title>
 
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
     <!-- Scripts -->
     <script src="{% static 'js/script.js' %}" defer></script>
-</head>
-<body class="bg-body text-body">
-
+  </head>
+  <body class="bg-body text-body">
     {% block content %}
     <!-- Aquí irá el contenido específico de cada página -->
     {% endblock %}
 
     <footer class="text-center mt-5 mb-3">
-        <p>© 2025 Tienda de Videojuegos</p>
-        <a href="{% url 'home' %}" class="text-body">Inicio</a>
-        <a href="{% url 'contacto' %}" class="text-body ms-3">Contacto</a>
+      <p>© 2025 Tienda de Videojuegos</p>
+      <a href="{% url 'home' %}" class="text-body">Inicio</a>
+      <a href="{% url 'contacto' %}" class="text-body ms-3">Contacto</a>
     </footer>
 
     <!-- Botón de cambio de tema -->
     <div class="text-center my-3">
-        <button id="toggle-theme" class="btn btn-outline-secondary">Cambiar tema</button>
+      <button id="toggle-theme" class="btn btn-outline-secondary">
+        Cambiar tema
+      </button>
     </div>
-</body>
+  </body>
 </html>

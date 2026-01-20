@@ -1,10 +1,4 @@
-# Django Core
 asgiref==3.11.0
 Django==5.2.9
 sqlparse==0.5.5
 tzdata==2025.3
-
-# Dependencias opcionales para desarrollo
-# python-decouple  # Para manejar variables de entorno
-# django-debug-toolbar  # Toolbar de debugging
-# pillow  # Si necesitas manejo de imágenes
