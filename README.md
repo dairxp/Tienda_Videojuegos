@@ -1,4 +1,4 @@
-# Tienda de Videojuegos Django\_\_en proceso
+# Tienda de Videojuegos Django\_\_en proceso desde la CUNA
 
 Proyecto de e-commerce para tienda de videojuegos desarrollado con Django 5.2.9
 
