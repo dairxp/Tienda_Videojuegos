@@ -206,7 +206,7 @@ python manage.py runserver 8001
 
 ## Deploy en Producción
 
-**⚠️ IMPORTANTE:** Este servidor de desarrollo NO es adecuado para producción.
+**IMPORTANTE:** Este servidor de desarrollo NO es adecuado para producción.
 
 Para producción, usa:
 
