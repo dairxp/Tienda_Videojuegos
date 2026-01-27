@@ -1,4 +1,4 @@
-# Tienda de Videojuegos Django :D
+# Tienda de Videojuegos Django
 
 Proyecto de e-commerce para tienda de videojuegos desarrollado con Django 5.2.9
 
@@ -111,7 +111,7 @@ Tienda_Videojuegos/
 ├── db.sqlite3                    # Base de datos SQLite (por defecto)
 ├── manage.py                     # Script de gestión de Django
 ├── requirements.txt              # Dependencias del proyecto
-└── README.md                     # Este archivo
+└── README.md                     # Este archivo tiene el historial
 ```
 
 ## Aplicaciones Incluidas
