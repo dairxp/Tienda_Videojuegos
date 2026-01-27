@@ -1,4 +1,4 @@
-# Tienda de Videojuegos Django
+# Tienda de Videojuegos Django :D
 
 Proyecto de e-commerce para tienda de videojuegos desarrollado con Django 5.2.9
 
